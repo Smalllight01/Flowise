@@ -70,7 +70,7 @@ export class App {
     }
 
     async initDatabase() {
-        // Initialize database
+        // Initialize  database
         this.AppDataSource.initialize()
             .then(async () => {
                 logger.info('📦 [server]: Data Source has been initialized!')
